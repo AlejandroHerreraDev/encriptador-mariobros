@@ -1,0 +1,171 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 80%;
+}
+body{
+    background-image: url(imagenes/wp3451298.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+
+}
+header{
+    /* background-color: black; */
+    position: absolute;
+}
+.contenedor-logo{
+    margin-top: 50px;
+    margin-left: 10px;
+}
+.contenedor-logo img{
+    width: 50%;
+    background-color: #FFA07A;
+    border-radius: 14px;
+}
+main{
+    display: flex;
+}
+.contenedor-campo1{
+    margin-top: 100px;
+    margin-left: 30px;
+}
+.campo1{
+    text-transform: lowercase;
+    background: rgba(255, 255, 255, 0.3);
+    font-weight: 900;
+    color: black;
+    border: 1px solid black;
+    border-radius: 24px;
+    padding: 5px;
+}
+.campo1::placeholder{
+    color: black;
+}
+.campo1:focus{
+    outline: none;
+}
+
+.contenedor-condiciones{
+    margin-left: 30px;
+    display: flex;
+    margin-top: 10px;
+}
+.contenedor-condiciones h6{
+    margin-left: 10px;
+    font-size: 20px;
+    margin-top: 10px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contenedor-botones-encriptar{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.boton-encriptar{
+    width: 250px;
+    height: 60px;
+    border-radius: 24px;
+    background-image: url(imagenes/pngegg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #87CEFA;
+    /* color: rgba(255, 255, 255, 0.8); */
+    border: 1px solid black;
+    color: black;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width:2px;
+    transition: 300ms;
+    vertical-align: top;
+}
+.boton-encriptar:hover{
+    font-size: 39px;
+}
+.boton-encriptar:active{
+    transform: scale(1.1);
+}
+.boton-desencriptar{
+    background-color: #D3D3D3;
+    background-image: url(imagenes/pngegg\ \(1\).png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 250px;
+    height: 60px;
+    border-radius: 24px;
+    border: 1px solid black;
+    /* color: rgba(255, 255, 255, 0.8); */
+    color: black;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width:2px;
+    transition: 300ms;
+    vertical-align: top;
+}
+.boton-desencriptar:hover{
+    font-size: 39px;
+}
+.boton-desencriptar:active{
+    transform: scale(1.1);
+}
+.contenedor-campo2{
+    margin-left: 250px;
+    margin-top: 50px;
+}
+.campo2{
+    width: 350px;
+    height: 500px;
+    border: 1px solid black;
+    border-radius: 24px;
+        position: absolute;
+    background: rgba(255, 255, 255, 0.3);
+    padding: 5px;
+}
+.campo2:focus{
+    outline: none;
+}
+.contenedor-muneco{
+    position: absolute;
+    margin-left: 320px;
+    margin-top: 100px;
+}
+.contenedor-muneco img{
+    width: 80%;
+}
+.contenedor-muneco h6{
+    font-size: 30px;
+}
+.contenedor-muneco p{
+    font-size: 18px;
+    margin-top: 8px;
+}
+.contenedor-boton-copiar{
+    position: absolute;
+    margin-left: 310px;
+    margin-top:440px;
+    visibility: hidden;
+}
+.boton-copiar{
+    background-color: #FFA07A;
+    background-image: url(imagenes/goomba.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 250px;
+    height: 60px;
+    border-radius: 24px;
+    border: 1px solid black;
+    color: black;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width:2px;
+    transition: 300ms;
+    vertical-align: top;
+}
+.boton-copiar:hover{
+    font-size: 39px;
+}
+.boton-copiar:active{
+    transform: scale(1.1);
+}

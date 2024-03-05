@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="contenedor-logo">
+            <img src="imagenes/Logo arula.png" alt="">
+        </div>
+    </header>
+    <main>
+        <section class="sector-1">
+            <div class="contenedor-campo1">
+                <textarea class="campo1" cols="30" rows="10" placeholder="Ingresa el texto aqui"></textarea>
+            </div>
+            <div class="contenedor-condiciones">
+                <img src="imagenes/exclamacion.png" alt="">
+                <h6>Ingresa solo minusculas y sin acentos</h6>
+            </div>
+            <div class="contenedor-botones-encriptar">
+                <button class="boton-encriptar" onclick="botonEncriptar()">Encriptar</button>
+                <button class="boton-desencriptar" onclick="botonDesencriptar()">Desencriptar</button>
+            </div>
+        </section>
+
+        <section class="sector-2">
+            <div class="contenedor-campo2">
+                <textarea class="campo2" cols="30" rows="10"></textarea>
+            </div>
+            <div class="contenedor-muneco">
+                <img src="imagenes/kupa.png" alt="">
+                <h6>Ningun mensaje fue <br> encontrado</h6>
+                <p>Ingresa el texto que deseas <br> encriptar o desencriptar</p>
+            </div>
+            <div class="contenedor-boton-copiar">
+                <button class="boton-copiar" onclick="botonCopiar()">Copiar</button>
+            </div>
+
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
